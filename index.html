@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FlowerStore.PH</title>
+<link rel="stylesheet" href="./Assets/CSS/style.css">
+</head>
+<body>
+    <div class="menu-wrapper">
+        <div class="menu-title-box">
+            <center>
+                <img class="i" src="https://imgs.search.brave.com/Ru7rstGcoQhf82eF7dk8deJ-C2UcdQcpbME-aaTXCi8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Zmxvd2VyZGVsaXZl/cnkucGgvaW1hZ2Uv/Y2F0YWxvZy9nYWxs/ZXJ5L2Zsb3dlci1k/ZWxpdmVyeS1waGls/aXBwaW5lcy5wbmc">
+            </center>
+        </div>
+        <div class="menu-container">
+            <header class="menu-header">
+                <h1 class="v">BEST SELLERS</h1>
+            </header>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="https://assets.flowerstore.ph/public/tenantPH/app/assets/images/variant/400_VlCFt0Qn94HmwWOTjOEL256F9.webp" alt="birthday bundle">
+                    <p>Beautiful you birthday in can bundle ₱1999</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://assets.flowerstore.ph/public/tenantPH/app/assets/images/variant/600_iV0IzgHhUgR78zaaB9utRMf3A.webp" alt="Chocolate Love">
+                    <p>Chocolate Love ₱1399.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://assets.flowerstore.ph/public/tenantPH/app/assets/images/variant/600_hxeG5kuIB81BZ2RjTk1KmQfLe.webp" alt="Beauty&Beast">
+                    <p>Beauty & The Beast rose ₱1299.00</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://assets.flowerstore.ph/public/tenantPH/app/assets/images/variant/600_6RLrnFZuFLuUVM3dMnfsgyxvg.webp" alt="My Darling">
+                    <p>My Darling ₱899.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="order-form">
+        <div class="form-header">
+            <h2>Order Form</h2>
+            <div class="item-counter">0</div>
+        </div>
+        <form id="orderForm">
+            <div class="form-group">
+                <br>
+                <h3 style="font-weight: bold;">Order</h3>
+                <label for="talknenengQty">Beauty Birthday Bundle:</label>
+                <input type="number" id="bdybundleQty" name="bdybundle" min="0" value="0">
+                <br>
+                <label for="tworonQty">Chocolate Love:</label>
+                <input type="number" id="chocolateyQty" name="chocolate" min="0" value="0">
+                <br>
+                <label for="killermareQty">Beayty&Beast Rose:</label>
+                <input type="number" id="beautyQty" name="beauty" min="0" value="0">
+                <br>
+                <label for="behnenqueueQty">My Darling:</label>
+                <input type="number" id="mydarlingQty" name="mydarling" min="0" value="0">
+                <br>
+                <label for="totalBill" style="font-weight: bold;">Total Bill (₱):</label>
+                <input type="number" id="totalBill" name="totalBill" value="0" readonly>
+                <br>
+                <label for="cashGiven">Cash (₱):<span style="color: rgb(226, 169, 193);">*</span></label>
+                <input type="number" id="cashGiven" name="cashGiven" min="0" value="0">
+            </div>
+        </form>
+    </div>
+
+    <div class="customer-info-wrapper"> 
+        <div class="customer-info">
+            <h2>Customers' Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+            <br>
+            <label for="contactNumber">Contact Number:</label>
+            <input type="text" id="contactNumber" name="contactNumber">
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+          <p>Contact:</p>
+          <p class="phone-number">+63 (02) 8540 9773</p> 
+        </div>
+        <div class="footer-center">
+          <p>© 2024 Blue Aurora Solutions Inc.</p>  
+        </div>
+
+        </div>
+        <div class="footer-right">
+            <p>SOCIAL MEDIA</p>
+            <a href="https://www.facebook.com/flowerstore.ph/">
+            <img src="https://imgs.search.brave.com/oJLuDjXTERHn6k3KVbwsFYoTaOMgkykMkCaH5mYfaKM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWRpZ2l0YWxhZ2Vu/Y3kuY29tLmF1L3dw/LWNvbnRlbnQvdXBs/b2Fkcy9GYWNlYm9v/ay1sb2dvLWJsdWUt/Y2lyY2xlLWxhcmdl/LXdoaXRlLWYucG5n">
+        </a>
+        <a href="https://twitter.com/FlowerstorePH">
+            <img src="https://imgs.search.brave.com/7lwfMfb7iW11b6oShBJFGljQ8heBKCqDu5OM37_oCTA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzZmL0xvZ29fb2Zf/VHdpdHRlci5zdmc.svg">
+        </a>
+        <a href="https://www.instagram.com/flowerstore.ph/">
+            <img src="https://imgs.search.brave.com/XpXrmtyH8ElgB0j29sXIL9toPI6a69R5uecmjG2JGbg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWRpZ2l0YWxhZ2Vu/Y3kuY29tLmF1L3dw/LWNvbnRlbnQvdXBs/b2Fkcy9uZXctSW5z/dGFncmFtLWxvZ28t/cG5nLWZ1bGwtY29s/b3VyLWdseXBoLW1l/ZGl1bS1zaXplLTQ1/MC1waXhlbHMucG5n">
+        </a>
+        <a href="https://www.tiktok.com/@flowerstore.ph">
+            <img src="https://imgs.search.brave.com/89xJfmRWDFN_omORuWjUlAbIHnyT4njWD8fy9TTWCcM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wdXJl/cG5nLmNvbS9wdWJs/aWMvdXBsb2Fkcy9s/YXJnZS90aWstdG9r/LWxvZ28tNmZoLnBu/Zw">
+        </a>
+        </div>
+    </footer>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="sales-invoice">Review Order</h2>
+            <p>Name: <span id="modalName"></span></p>
+            <p>Address: <span id="modalAddress"></span></p>
+            <p>Contact Number: <span id="modalContactNumber"></span></p>
+            <p>Total Bill: <span id="modalTotalBill"></span></p>
+            <p>Payment: <span id="modalPayment"></span></p>
+            <p>Change: <span id="modalChange"></span></p>
+            <button id="closeModal" class="close-button">Close</button>
+        </div>
+    </div>
+
+    <script src="./Assets/JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
